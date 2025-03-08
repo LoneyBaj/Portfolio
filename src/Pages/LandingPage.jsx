@@ -14,7 +14,7 @@ function LandigPage() {
       
       <div id="app" className="divider divider-neutral px-8 mt-4"></div>
         <h1 className='text-2xl md:text-3xl font-semibold text-center p-4'>Projects</h1>
-        <h1 className='text-md md:text-xl font-semibold text-center'>You might need to wait a little for the website to open!</h1>
+        {/* <h1 className='text-md md:text-xl font-semibold text-center'>You might need to wait a little for the website to open!</h1> */}
         <ProjectCard />
       <div className="divider divider-neutral px-8 mt-4"></div>
         <h1 className='text-2xl md:text-3xl font-semibold text-center p-4'>Skills</h1>
