@@ -12,6 +12,14 @@ import ex from "../assets/Images/ex.png"
 import tw from "../assets/Images/tw.png"
 import dotnet from "../assets/Images/dotnet.png"
 import Atropos from 'atropos/react'
+import docker from "../assets/Images/docker.png"
+import nextjs from "../assets/Images/nextjs.png"
+import github from "../assets/Images/github.png"
+import gcp from "../assets/Images/gcp.png"
+import python from "../assets/Images/py.png"
+import postman from "../assets/Images/postman.png"
+import bash from "../assets/Images/bash.png"
+import git from "../assets/Images/git.png"
 
 export default function Skills() {
   return (
@@ -29,6 +37,14 @@ export default function Skills() {
         <Card image={ex} title="ExpressJS"/>
         <Card image={sql} title="SQL"/>
         <Card image={dotnet} title=".NET"/>
+        <Card image={docker} title="Docker"/>
+        <Card image={nextjs} title="NextJS"/>
+        <Card image={git} title="Git"/>
+        <Card image={github} title="Github"/>
+        <Card image={gcp} title="Google Cloud"/>
+        <Card image={python} title="Python"/>
+        <Card image={postman} title="Postman"/>
+        <Card image={bash} title="Bash"/>
       </div>
     </div>
   )
